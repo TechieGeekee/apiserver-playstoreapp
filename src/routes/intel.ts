@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { openrouter } from "@workspace/integrations-openrouter-ai";
+import { openrouter } from "../lib/openrouter.js";
 
 const router = Router();
 
